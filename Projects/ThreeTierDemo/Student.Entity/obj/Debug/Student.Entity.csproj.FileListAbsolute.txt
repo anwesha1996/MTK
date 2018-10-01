@@ -1,0 +1,4 @@
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\Student.Entity\bin\Debug\Student.Entity.dll
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\Student.Entity\bin\Debug\Student.Entity.pdb
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\Student.Entity\obj\Debug\Student.Entity.dll
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\Student.Entity\obj\Debug\Student.Entity.pdb

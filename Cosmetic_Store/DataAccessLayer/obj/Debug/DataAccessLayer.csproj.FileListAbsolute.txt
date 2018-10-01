@@ -1,0 +1,15 @@
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.cos.resources
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.Cache

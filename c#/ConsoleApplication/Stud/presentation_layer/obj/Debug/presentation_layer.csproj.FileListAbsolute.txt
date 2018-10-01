@@ -1,0 +1,4 @@
+D:\c#\ConsoleApplication\Stud\presentation_layer\bin\Debug\presentation_layer.dll
+D:\c#\ConsoleApplication\Stud\presentation_layer\bin\Debug\presentation_layer.pdb
+D:\c#\ConsoleApplication\Stud\presentation_layer\obj\Debug\presentation_layer.dll
+D:\c#\ConsoleApplication\Stud\presentation_layer\obj\Debug\presentation_layer.pdb

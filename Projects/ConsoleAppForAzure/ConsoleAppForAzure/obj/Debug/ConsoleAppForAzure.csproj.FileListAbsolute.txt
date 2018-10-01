@@ -1,0 +1,13 @@
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\ConsoleAppForAzure.exe.config
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\ConsoleAppForAzure.exe
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\ConsoleAppForAzure.pdb
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\obj\Debug\ConsoleAppForAzure.csprojResolveAssemblyReference.cache
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\obj\Debug\ConsoleAppForAzure.exe
+C:\Users\M1042829\documents\visual studio 2017\Projects\ConsoleAppForAzure\ConsoleAppForAzure\obj\Debug\ConsoleAppForAzure.pdb

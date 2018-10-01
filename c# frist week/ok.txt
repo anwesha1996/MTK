@@ -1,0 +1,117 @@
+	User:
+		
+		[Key]
+		public int Mid { get; set; }
+
+		public string Name { get; set; }
+		public string Track_name { get; set; }
+
+room:
+[Key]
+		public int Rid { get; set; }
+
+		public string Block_name { get; set; }
+		public string Floor_no { get; set; }
+
+[Key]
+		public int A_Id { get; set; }
+		[Index(IsUnique =true)]
+
+		public int Id{ get; set; }
+		[ForeignKey("Id")]
+		public User User { get; set; }
+		
+		[Index(IsUnique = true)]
+		public int ROOM_id { get; set; }
+		[ForeignKey("ROOM_id")]
+		public Rooms Rooms { get; set; }
+
+ public ActionResult Index()
+        {
+            return View(db.Users.ToList());
+        }
+		public ActionResult Index1()
+		{
+			ViewBag.Message = "User Details submitted";
+			return View(db.Users.ToList());
+		}
+public ActionResult Create([Bind(Include = "Mid,Name,Track_name")] User user)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Users.Add(user);
+                db.SaveChanges();
+                return RedirectToAction("Index1");
+            }
+
+            return View(user);
+        }
+ public ActionResult Index()
+        {
+            return View(db.Rooms.ToList());
+        }
+		public ActionResult Index1()
+		{
+			ViewBag.Message = "Room Details submitted";
+			return View(db.Rooms.ToList());
+		}
+ public ActionResult Create([Bind(Include = "Rid,Block_name,Floor_no")] Room room)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Rooms.Add(room);
+                db.SaveChanges();
+                return RedirectToAction("Index1");
+            }
+
+            return View(room);
+        }
+ public ActionResult Create()
+        {
+			var rooms = (from a in db.Allocates select a.Rid).ToList();
+			var urooms = (from b in db.Rooms where !rooms.Contains(b.Rid) select b).ToList();
+			var user = (from a in db.Allocates select a.Mid).ToList();
+			var uuser = (from b in db.Users where !user.Contains(b.Mid) select b).ToList();
+			ViewBag.Rid = new SelectList(urooms, "Rid", "Rid");
+			ViewBag.Mid = new SelectList(uuser, "Mid", "Mid");
+
+
+			//ViewBag.Rid = new SelectList(db.Rooms, "Rid", "Rid");
+			// ViewBag.Mid = new SelectList(db.Users, "Mid", "Mid");
+			return View();
+public ActionResult Create([Bind(Include = "A_Id,Mid,Rid")] Allocate allocate)
+        {
+			try
+			{
+				if (ModelState.IsValid)
+				{
+					db.Allocates.Add(allocate);
+					db.SaveChanges();
+					return RedirectToAction("Index");
+				}
+			}
+			catch (Exception ex)
+			{
+				
+				return View("Exception");
+			}
+ <connectionStrings>
+    <add name="UserContext" connectionString="server=g1c2ml15824;database=room_alloc;integrated security=true" providerName="System.Data.SqlClient" />
+    
+  </connectionStrings>
+
+  <li>@Html.ActionLink("Add User", "Create", "Users")</li>
+                    <li>@Html.ActionLink("Add Room", "Create", "Rooms")</li>
+                    <li>@Html.ActionLink("Allocate Room", "Create", "Allocates")</li>
+public class UserContext :DbContext
+	{
+		public UserContext() : base("name = UserContext")
+		{
+		}
+		public DbSet<User> Users { get; set; }
+		public DbSet<Room> Rooms { get; set; }
+
+		public DbSet<Allocate> Allocates { get; set; }
+
+	}
+}

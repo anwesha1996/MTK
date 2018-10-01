@@ -1,0 +1,17 @@
+﻿@model ViewD.Models.Student
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<ul>
+	@foreach (var st in ViewData["students"] as IList<Student>)
+	{
+		<li>
+			@st.SName
+		</li>
+	}
+</ul>
+
+

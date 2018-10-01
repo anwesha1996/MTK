@@ -1,0 +1,24 @@
+using System;
+public class Program
+{
+	public static void Main()
+		
+	{
+		DateTime date = DateTime.Today;
+
+		
+		Console.WriteLine(date.ToString("yyyy-MM-dd"));
+		Console.WriteLine(date.ToString("dd-MMM-yy"));
+		Console.WriteLine(date.ToString("MM/dd/yyyy"));
+		Console.WriteLine(date.ToString("MM/dd/yy"));
+		Console.WriteLine(date.ToString("M/d/yy"));
+		
+		
+		DateTime prevdate = date.AddDays(-10);
+		
+		Console.WriteLine(prevdate.ToString("dd-MM-yy"));
+		
+		if (prevdate < date)
+                Console.WriteLine("{0} Occurs First", prevdate.ToString("dd-MM-yy"));
+	}
+	}

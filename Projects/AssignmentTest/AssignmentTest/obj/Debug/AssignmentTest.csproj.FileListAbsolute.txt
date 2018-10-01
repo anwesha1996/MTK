@@ -1,0 +1,6 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\AssignmentTest\AssignmentTest\obj\Debug\AssignmentTest.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\AssignmentTest\AssignmentTest\bin\Debug\AssignmentTest.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\AssignmentTest\AssignmentTest\bin\Debug\AssignmentTest.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\AssignmentTest\AssignmentTest\bin\Debug\AssignmentTest.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\AssignmentTest\AssignmentTest\obj\Debug\AssignmentTest.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\AssignmentTest\AssignmentTest\obj\Debug\AssignmentTest.pdb

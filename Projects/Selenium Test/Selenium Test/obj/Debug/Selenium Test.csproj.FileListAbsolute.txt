@@ -1,0 +1,10 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\bin\Debug\Selenium Test.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\bin\Debug\Selenium Test.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\bin\Debug\Selenium Test.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\bin\Debug\WebDriver.dll
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\bin\Debug\WebDriver.Support.dll
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\bin\Debug\WebDriver.xml
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\bin\Debug\WebDriver.Support.xml
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\obj\Debug\Selenium Test.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\obj\Debug\Selenium Test.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\Selenium Test\Selenium Test\obj\Debug\Selenium Test.pdb

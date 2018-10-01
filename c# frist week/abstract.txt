@@ -1,0 +1,63 @@
+using System;
+ 
+public abstract class Account
+{
+	public int accountNo{set ; get;}
+	public string accountType{set ; get;}
+	public int debitCardNo {set ; get;}
+	public int pin{set ; get;}
+	public string loginId{set ; get;}
+	public string password{set ; get;}
+	public double balance{set ; get;}
+
+}
+
+public class Current : Account
+{
+	public string companyName{set ; get;}
+	public string typeOfBusiness{set; get;}
+	public string website{set; get;}
+	public string contactName{set;get;}
+}
+ public class Savings_Corporate : Account
+ {
+	 public string companyName{set ; get;}
+ }
+
+ class AccountMgr
+{
+	 public Account createAccount(Account a)
+	 {
+		 a.accountNo=1234;
+		 a.accountType="savings";
+		 a.debitCardNo=890765432;
+		 a.pin=0510;
+		 a.loginId="anwesh@96";
+		 a.password="annie@123";
+		 a.balance=9000.623;
+		 a.website="ccds";
+		 return a;
+		 
+	 }
+	 public  void displayAccount(Account a)
+	 {
+		 Console.WriteLine(a.accountNo);
+		 Console.WriteLine(a.accountType);
+		 Console.WriteLine(a.debitCardNo);
+		 Console.WriteLine(a.pin);
+		 Console.WriteLine(a.loginId);
+		 Console.WriteLine(a.password);
+		 Console.WriteLine(a.balance);
+		 
+	 }
+ }
+	 public class Test
+	 {
+	public static void Main()
+	{
+		Account a1=new Current();
+		AccountMgr a2=new AccountMgr();
+		a2.createAccount(a1);
+		a2.displayAccount(a1);
+	}
+}

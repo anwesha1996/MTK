@@ -1,0 +1,10 @@
+D:\c#\ConsoleApplication\Stud\Stud\bin\Debug\Stud.exe.config
+D:\c#\ConsoleApplication\Stud\Stud\bin\Debug\Stud.exe
+D:\c#\ConsoleApplication\Stud\Stud\bin\Debug\Stud.pdb
+D:\c#\ConsoleApplication\Stud\Stud\bin\Debug\buisness_layer.dll
+D:\c#\ConsoleApplication\Stud\Stud\bin\Debug\DataAccessLayer.dll
+D:\c#\ConsoleApplication\Stud\Stud\bin\Debug\buisness_layer.pdb
+D:\c#\ConsoleApplication\Stud\Stud\bin\Debug\DataAccessLayer.pdb
+D:\c#\ConsoleApplication\Stud\Stud\obj\Debug\Stud.csprojResolveAssemblyReference.cache
+D:\c#\ConsoleApplication\Stud\Stud\obj\Debug\Stud.exe
+D:\c#\ConsoleApplication\Stud\Stud\obj\Debug\Stud.pdb

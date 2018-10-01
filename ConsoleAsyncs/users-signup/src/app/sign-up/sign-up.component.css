@@ -1,0 +1,32 @@
+ /* body
+ {
+    background-image: url("https://s-ec.bstatic.com/images/hotel/max1280x900/681/68184730.jpg"); 
+    height:100%;  
+    width:100%;
+    /* background-repeat: no-repeat;
+    background-size: cover;   
+            */
+            /* background-color: #F5F6F8; */
+/* } */
+
+
+div.sm-jumbotron {
+    margin: 0px;
+    padding: 2rem;
+    background-color: rgb(78, 75, 75);
+    color : #fff;
+}
+button.btn-submit{
+    background-color: #38547b; 
+    color:  #fff;
+    width:100%
+}
+button.btn-submit:focus,button.btn-submit:hover{
+    background-color: #4C7B38;
+}
+input.ng-invalid.ng-dirty
+{
+    border-bottom-color: #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+}
+  

@@ -1,0 +1,6 @@
+D:\c#\Console_App2(4_5)\Console_App2(4_5)\bin\Debug\Console_App2(4_5).exe.config
+D:\c#\Console_App2(4_5)\Console_App2(4_5)\bin\Debug\Console_App2(4_5).exe
+D:\c#\Console_App2(4_5)\Console_App2(4_5)\bin\Debug\Console_App2(4_5).pdb
+D:\c#\Console_App2(4_5)\Console_App2(4_5)\obj\Debug\Console_App2(4_5).csprojResolveAssemblyReference.cache
+D:\c#\Console_App2(4_5)\Console_App2(4_5)\obj\Debug\Console_App2(4_5).exe
+D:\c#\Console_App2(4_5)\Console_App2(4_5)\obj\Debug\Console_App2(4_5).pdb

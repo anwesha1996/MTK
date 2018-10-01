@@ -1,0 +1,9 @@
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\bin\Debug\ThreeTier.BusinessLayer.dll
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\bin\Debug\ThreeTier.BusinessLayer.pdb
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\bin\Debug\Student.Entity.dll
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\bin\Debug\Student.Entity.pdb
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\obj\Debug\ThreeTier.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\obj\Debug\ThreeTier.BusinessLayer.dll
+C:\Users\M1042829\Documents\Visual Studio 2017\Projects\ThreeTierDemo\ThreeTier.BusinessLayer\obj\Debug\ThreeTier.BusinessLayer.pdb

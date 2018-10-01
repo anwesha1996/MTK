@@ -1,0 +1,7 @@
+D:\Orchards\Session\ConsoleAsyncs\ConsoleAsyncs\obj\Debug\ConsoleAsyncs.csprojAssemblyReference.cache
+D:\Orchards\Session\ConsoleAsyncs\ConsoleAsyncs\obj\Debug\ConsoleAsyncs.csproj.CoreCompileInputs.cache
+D:\Orchards\Session\ConsoleAsyncs\ConsoleAsyncs\bin\Debug\ConsoleAsyncs.exe.config
+D:\Orchards\Session\ConsoleAsyncs\ConsoleAsyncs\bin\Debug\ConsoleAsyncs.exe
+D:\Orchards\Session\ConsoleAsyncs\ConsoleAsyncs\bin\Debug\ConsoleAsyncs.pdb
+D:\Orchards\Session\ConsoleAsyncs\ConsoleAsyncs\obj\Debug\ConsoleAsyncs.exe
+D:\Orchards\Session\ConsoleAsyncs\ConsoleAsyncs\obj\Debug\ConsoleAsyncs.pdb

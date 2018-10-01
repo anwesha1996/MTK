@@ -1,0 +1,9 @@
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\M1047281\documents\visual studio 2017\Projects\Cosmetic_Store\EntityLayer\obj\Debug\EntityLayer.pdb

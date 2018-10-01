@@ -1,0 +1,6 @@
+projectKey=Delegate
+serverUrl=http://localhost:9090
+serverVersion=7.0.0.36138
+dashboardUrl=http://localhost:9090/dashboard/index/Delegate
+ceTaskId=AWIufv46eB2HEq0BF8-i
+ceTaskUrl=http://localhost:9090/api/ce/task?id=AWIufv46eB2HEq0BF8-i

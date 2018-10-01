@@ -1,0 +1,5 @@
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\DatabaseAccessLayer\bin\Debug\DatabaseAccessLayer.dll
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\DatabaseAccessLayer\bin\Debug\DatabaseAccessLayer.pdb
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\DatabaseAccessLayer\obj\Debug\DatabaseAccessLayer.csprojResolveAssemblyReference.cache
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\DatabaseAccessLayer\obj\Debug\DatabaseAccessLayer.dll
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\DatabaseAccessLayer\obj\Debug\DatabaseAccessLayer.pdb

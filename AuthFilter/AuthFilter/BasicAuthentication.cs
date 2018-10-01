@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Security.Principal;
+using System.Text;
+using System.Threading;
+using System.Web;
+using System.Web.Http.Controllers;
+using System.Web.Http.Filters;
+
+namespace AuthFilter
+{
+	public class BasicAuthentication : AuthorizationFilterAttribute
+	{
+		public override void OnAuthorization(HttpActionContext actionContext)
+		{
+			if (actionContext.Request.Headers.Authorization == null)
+			{
+				actionContext.Response = actionContext.Request
+					.CreateResponse(HttpStatusCode.BadRequest);
+			}
+			else
+			{
+				string authenticationToken = actionContext.Request.Headers
+											.Authorization.Parameter;
+				string decodedAuthenticationToken = Encoding.UTF8.GetString(
+					Convert.FromBase64String(authenticationToken));
+				string[] usernamePasswordArray = decodedAuthenticationToken.Split(':');
+				if (usernamePasswordArray[0] == null || usernamePasswordArray[1] == null)
+				{
+					actionContext.Response = actionContext.Request
+					   .CreateResponse(HttpStatusCode.NonAuthoritativeInformation);
+				}
+				string username = usernamePasswordArray[0];
+				string password = usernamePasswordArray[1];
+
+				if (username == "Gokul" && password == "True")
+				{
+					Thread.CurrentPrincipal = new GenericPrincipal(
+						new GenericIdentity(username), null);
+
+
+				}
+				else
+				{
+					actionContext.Response = actionContext.Request
+						.CreateResponse(HttpStatusCode.Unauthorized);
+				}
+				usernamePasswordArray[0] = "Validation";
+			}
+		}
+	}
+
+}

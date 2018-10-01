@@ -1,0 +1,177 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport="true"
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="!(isHandset$ | async)">
+    <mat-toolbar color="primary">Menu</mat-toolbar>
+    <mat-nav-list>
+      <pre>
+        <h2 align=center> Manufacturer </h2>
+        <input type="checkbox" name="mobile" value="apple" [(ngModel)]="mob1"> Apple<br> 
+        <input type="checkbox" name="samsung" value="samsung" [(ngModel)]="mob2"> Samsung<br>
+        <input type="checkbox" name="htc" value="HTC" [(ngModel)]="mob3"> HTC<br>
+        <input type="checkbox" name="nokia" value="Nokia" [(ngModel)]="mob4"> Nokia<br>
+        <input type="checkbox" name="sony" value="Sony" [(ngModel)]="mob5"> Sony<br>
+
+        <h2 align=center> Screen Size </h2>
+        <input type="checkbox" name="gb1" value="gb1" [(ngModel)]="mob6"> 16gb<br>
+        <input type="checkbox" name="gb2" value="gb2" [(ngModel)]="mob7"> 32gb<br>
+  
+        <h2 align=center>OS</h2>
+        <input type="checkbox" name="and" value="and" [(ngModel)]="mob8"> android<br>
+        <input type="checkbox" name="ios" value="ios" [(ngModel)]="mob9"> IOS<br>
+        <input type="checkbox" name="win" value="win" [(ngModel)]="mob10"> windows<br>
+
+<div>
+        <button type="reset" (click)="clearSortingFilters()">Clear Filters</button>
+</div>
+      </pre>
+</mat-nav-list>
+
+    
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>mobilestore</span>
+    </mat-toolbar>
+    <!-- Add Content Here -->
+    <mat-grid-list cols="3" rowHeight="600">
+
+      <mat-grid-tile>
+        <div class="card" style="width:18rem;">
+            <h3 class="card-header"> <img src="assets/images/img1.jpg" align="center" style="width:200px;height:250px;"> </h3>
+            <div class="card-body" >
+                <p class="card-text"><b>Manufacturer</b>: Apple</p><br>
+                <p><b>Storage</b>: 32GB</p>
+               &nbsp;
+               <p><b>OS</b>: IOS</p>
+               <p><b>Camera</b>:5 mp</p>
+               <p align="right"> Rs 29999 </p>
+           </div>
+        </div>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <div class="card" style="width:18rem">
+            <h3 class="card-header"> <img src="assets/images/img9.jpg" align="center"  style="width:200px;height:250px;"> </h3>
+            <div class="card-body" align="left">
+                <p class="card-text"><b>Manufacturer</b>: Sony</p><br>
+                <p><b>Storage</b>: 64GB</p>
+               &nbsp;
+               <p><b>OS</b>: Android</p>
+               <p><b>Camera</b>:20 mp</p>
+               <p align="right"> Rs 19999 </p>
+           </div>
+        </div>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+          <div class="card" style="width:18rem">
+              <h3 class="card-header"> <img src="assets/images/img2.jpg" align="center"  style="width:200px;height:250px;"> </h3>
+              <div class="card-body" align="left">
+                  <p class="card-text"><b>Manufacturer</b>: Sony</p><br>
+                  <p><b>Storage</b>: 64GB</p>
+                 &nbsp;
+                 <p><b>OS</b>: Android</p>
+                 <p><b>Camera</b>:20 mp</p>
+                 <p align="right"> Rs 19999 </p>
+             </div>
+          </div>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <div class="card" style="width:18rem">
+                <h3 class="card-header"> <img src="assets/images/img3.jpg" align="center"  style="width:200px;height:250px;"> </h3>
+                <div class="card-body" align="left">
+                    <p class="card-text"><b>Manufacturer</b>: Sony</p><br>
+                    <p><b>Storage</b>: 64GB</p>
+                   &nbsp;
+                   <p><b>OS</b>: Android</p>
+                   <p><b>Camera</b>:20 mp</p>
+                   <p align="right"> Rs 19999 </p>
+               </div>
+            </div>
+          </mat-grid-tile>
+          <mat-grid-tile>
+              <div class="card" style="width:18rem">
+                  <h3 class="card-header"> <img src="assets/images/img4.jpg" align="center"  style="width:200px;height:250px;"> </h3>
+                  <div class="card-body" align="left">
+                      <p class="card-text"><b>Manufacturer</b>: Sony</p><br>
+                      <p><b>Storage</b>: 64GB</p>
+                     &nbsp;
+                     <p><b>OS</b>: Android</p>
+                     <p><b>Camera</b>:20 mp</p>
+                     <p align="right"> Rs 19999 </p>
+                 </div>
+              </div>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <div class="card" style="width:18rem">
+                    <h3 class="card-header"> <img src="assets/images/img5.jpg" align="center"  style="width:200px;height:250px;"> </h3>
+                    <div class="card-body" align="left">
+                        <p class="card-text"><b>Manufacturer</b>: Sony</p><br>
+                        <p><b>Storage</b>: 64GB</p>
+                       &nbsp;
+                       <p><b>OS</b>: Android</p>
+                       <p><b>Camera</b>:20 mp</p>
+                       <p align="right"> Rs 19999 </p>
+                   </div>
+                </div>
+              </mat-grid-tile>
+              <mat-grid-tile>
+                  <div class="card" style="width:18rem">
+                      <h3 class="card-header"> <img src="assets/images/img6.jpg" align="center"  style="width:200px;height:250px;"> </h3>
+                      <div class="card-body" align="left">
+                          <p class="card-text"><b>Manufacturer</b>: Sony</p><br>
+                          <p><b>Storage</b>: 64GB</p>
+                         &nbsp;
+                         <p><b>OS</b>: Android</p>
+                         <p><b>Camera</b>:20 mp</p>
+                         <p align="right"> Rs 19999 </p>
+                     </div>
+                  </div>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <div class="card" style="width:18rem">
+                        <h3 class="card-header"> <img src="assets/images/img7.jpg" align="center"   style="width:200px;height:250px;"> </h3>
+                        <div class="card-body" align="left">
+                            <p class="card-text"><b>Manufacturer</b>: Sony</p><br>
+                            <p><b>Storage</b>: 64GB</p>
+                           &nbsp;
+                           <p><b>OS</b>: Android</p>
+                           <p><b>Camera</b>:20 mp</p>
+                           <p align="right"> Rs 19999 </p>
+                       </div>
+                    </div>
+                  </mat-grid-tile>
+                  <mat-grid-tile>
+                      <div class="card" style="width:18rem">
+                          <h3 class="card-header"> <img src="assets/images/img8.jpg" align="center"  style="width:200px;height:250px;"> </h3>
+                          <div class="card-body" align="left">
+                              <p class="card-text"><b>Manufacturer</b>: Sony</p><br>
+                              <p><b>Storage</b>: 64GB</p>
+                             &nbsp;
+                             <p><b>OS</b>: Android</p>
+                             <p><b>Camera</b>:20 mp</p>
+                             <p align="right"> Rs 19999 </p>
+                         </div>
+                      </div>
+                    </mat-grid-tile>
+
+    </mat-grid-list>
+
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

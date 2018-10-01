@@ -1,0 +1,5 @@
+c:\users\m1047281\documents\visual studio 2017\Projects\Ex_handling\Ex_handling\bin\Debug\Ex_handling.exe.config
+c:\users\m1047281\documents\visual studio 2017\Projects\Ex_handling\Ex_handling\bin\Debug\Ex_handling.exe
+c:\users\m1047281\documents\visual studio 2017\Projects\Ex_handling\Ex_handling\bin\Debug\Ex_handling.pdb
+c:\users\m1047281\documents\visual studio 2017\Projects\Ex_handling\Ex_handling\obj\Debug\Ex_handling.exe
+c:\users\m1047281\documents\visual studio 2017\Projects\Ex_handling\Ex_handling\obj\Debug\Ex_handling.pdb

@@ -1,0 +1,6 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\Delegate_demo\Delegate_demo\bin\Debug\Delegate_demo.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\Delegate_demo\Delegate_demo\bin\Debug\Delegate_demo.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\Delegate_demo\Delegate_demo\bin\Debug\Delegate_demo.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\Delegate_demo\Delegate_demo\obj\Debug\Delegate_demo.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\Delegate_demo\Delegate_demo\obj\Debug\Delegate_demo.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\Delegate_demo\Delegate_demo\obj\Debug\Delegate_demo.pdb

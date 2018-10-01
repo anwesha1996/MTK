@@ -1,0 +1,33 @@
+<h1> Feedback Form </h1>
+      <form>
+        <table align="left">
+          <tr>
+          
+            <td>NAME</td>
+            <td>
+              <input type="text" class="form-control" name="Name" [(ngModel)]='Name'>
+            </td>
+          </tr>
+          <tr>
+            <td>MID</td>
+            <input type="text" class="form-control" name="MID" [(ngModel)]='MID'>
+          </tr>
+          <tr>
+              <td>FEEDBACK</td>
+          
+              <td><textarea rows="4" cols="50" class="form-control" name="FEEDBACK" [(ngModel)]='FEEDBACK'>  </textarea><td>
+              </tr>
+              <br>
+              <br>
+              <input type="reset" value="Clear" style="background-color:yellow">
+&nbsp;&nbsp;
+              <button style="background-color:blue" (click)="submit()"> Post </button>
+        </table>
+      </form>
+      <hr>
+      <p
+      *ngFor="let arr of a">
+       {{arr}}
+  </p>
+     
+     

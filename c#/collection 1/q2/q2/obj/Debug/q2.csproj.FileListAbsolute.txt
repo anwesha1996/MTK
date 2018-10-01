@@ -1,0 +1,5 @@
+D:\c#\collection 1\q2\q2\bin\Debug\q2.exe.config
+D:\c#\collection 1\q2\q2\bin\Debug\q2.exe
+D:\c#\collection 1\q2\q2\bin\Debug\q2.pdb
+D:\c#\collection 1\q2\q2\obj\Debug\q2.exe
+D:\c#\collection 1\q2\q2\obj\Debug\q2.pdb

@@ -1,0 +1,44 @@
+using System;
+class Hotel
+{
+	public long hoId {get ; set;}
+public string bNote {get ; set;}
+public string hoName {get ; set;}
+public string pURL  {get ; set;}
+public int stRank  {get ; set;}
+}
+
+	class HotelMgr
+	{
+		public Hotel storeData(Hotel h) 
+		{
+			Console.WriteLine("enter the hotel details");
+			h.hoId=Convert.ToInt64(Console.ReadLine());  
+			h.bNote=Console.ReadLine();
+			h.hoName=Console.ReadLine();
+		    h.pURL=Console.ReadLine();
+			h.stRank=Convert.ToInt32(Console.ReadLine());
+			return h;
+		}
+		
+		public void showData(Hotel h)
+		{
+			Console.WriteLine(h.hoId);
+			Console.WriteLine(h.bNote);
+			Console.WriteLine(h.hoName);
+			Console.WriteLine(h.pURL);
+			Console.WriteLine(h.stRank);
+			
+		}
+	}
+					
+public class Test
+{
+	public static void Main()
+	{
+		Hotel h=new Hotel();
+		HotelMgr hm=new HotelMgr();
+		h=hm.storeData(h);
+		hm.showData(h);
+	}
+}

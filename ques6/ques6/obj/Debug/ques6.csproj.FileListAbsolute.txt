@@ -1,0 +1,6 @@
+c:\users\m1047281\documents\visual studio 2017\Projects\ques6\ques6\bin\Debug\ques6.exe.config
+c:\users\m1047281\documents\visual studio 2017\Projects\ques6\ques6\bin\Debug\ques6.exe
+c:\users\m1047281\documents\visual studio 2017\Projects\ques6\ques6\bin\Debug\ques6.pdb
+c:\users\m1047281\documents\visual studio 2017\Projects\ques6\ques6\obj\Debug\ques6.csprojResolveAssemblyReference.cache
+c:\users\m1047281\documents\visual studio 2017\Projects\ques6\ques6\obj\Debug\ques6.exe
+c:\users\m1047281\documents\visual studio 2017\Projects\ques6\ques6\obj\Debug\ques6.pdb

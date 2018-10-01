@@ -1,0 +1,9 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\bin\Debug\NunitTestFirstDemo.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\bin\Debug\NunitTestFirstDemo.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\bin\Debug\NunitTestFirstDemo.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\bin\Debug\nunit.framework.dll
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\bin\Debug\nunit.framework.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\bin\Debug\nunit.framework.xml
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\obj\Debug\NunitTestFirstDemo.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\obj\Debug\NunitTestFirstDemo.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\NunitTestFirstDemo\NunitTestFirstDemo\obj\Debug\NunitTestFirstDemo.pdb

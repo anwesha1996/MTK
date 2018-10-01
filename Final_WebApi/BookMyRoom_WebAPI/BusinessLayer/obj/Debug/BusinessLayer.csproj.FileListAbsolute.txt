@@ -1,0 +1,5 @@
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\BusinessLayer\bin\Debug\BusinessLayer.dll
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\BusinessLayer\bin\Debug\BusinessLayer.pdb
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\BusinessLayer\obj\Debug\BusinessLayer.dll
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\BusinessLayer\obj\Debug\BusinessLayer.pdb

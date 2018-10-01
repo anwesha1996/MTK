@@ -1,0 +1,6 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\specialsubstring\specialsubstring\bin\Debug\specialsubstring.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\specialsubstring\specialsubstring\bin\Debug\specialsubstring.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\specialsubstring\specialsubstring\bin\Debug\specialsubstring.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\specialsubstring\specialsubstring\obj\Debug\specialsubstring.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\specialsubstring\specialsubstring\obj\Debug\specialsubstring.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\specialsubstring\specialsubstring\obj\Debug\specialsubstring.pdb

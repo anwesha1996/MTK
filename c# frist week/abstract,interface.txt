@@ -1,0 +1,95 @@
+using System;
+
+
+public abstract class Cars
+{
+	public void callFacility()
+	{
+		Console.WriteLine("call facility given");
+	}
+	
+	public void checkAC()
+	{
+		Console.WriteLine("AC working");
+	}
+	
+	abstract public void  colors();
+	abstract public void  getTotalSeat();
+	
+	abstract public void  price();
+	
+	public void Wheel()
+	{
+		Console.WriteLine("Car has wheels");
+	}
+	
+}
+interface Igps
+{
+	void gps();
+}
+class Hyundai : Cars ,Igps
+{
+public override void colors()
+{
+	Console.WriteLine("Color is blue,black,white");
+}
+	public override void getTotalSeat()
+	{
+		Console.WriteLine("seats are 6");
+	
+}
+	
+public override void price()
+{
+	Console.WriteLine("price is 600000");
+}
+	public void gps()
+	{
+		Console.WriteLine("Gps activated");
+	
+}
+}
+
+class Toyota : Cars
+{
+	public override void colors()
+  {
+	Console.WriteLine("Color is white,red");
+    }
+	public override void getTotalSeat()
+	{
+		Console.WriteLine("seats are 8");
+	
+        }
+
+
+	
+public override void price()
+{
+	Console.WriteLine("price is 100000");
+}
+}
+ 
+public class test
+{
+	public static void Main()
+	{
+		Hyundai h=new Hyundai();
+		Console.WriteLine("Hyundai details");
+		h.colors();
+		h.getTotalSeat();
+		h.gps();
+		h.price();
+		h.callFacility();
+		h.checkAC();
+		h.Wheel();
+	}
+}
+	
+
+	
+	
+	
+
+

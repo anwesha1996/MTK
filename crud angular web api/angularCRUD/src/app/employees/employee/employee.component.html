@@ -1,0 +1,26 @@
+<form class="emp-Form" #employeeForm="ngForm" (ngSubmit)="onSubmit(userRegistrationForm)">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <input type="text" class="form-control" placeholder="eid" name="eid" #eid="ngModel" [(ngModel)]= "employeeService.selectedEmployee.eid">
+    </div>
+    <div class="form-group col-md-6">
+      <input type="text" class="form-control" placeholder="name" name="name" #name="ngModel" [(ngModel)]= "employeeService.selectedEmployee.name">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <input type="text" class="form-control" placeholder="empcode" name="empcode" #empcode="ngModel" [(ngModel)]= "employeeService.selectedEmployee.empcode">
+    </div>
+    <div class="form-group col-md-6">
+      <input type="text" class="form-control" placeholder="office" name="office" #office="ngModel" [(ngModel)]= "employeeService.selectedEmployee.office">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    <div class="form-group col-md-6">
+      <button type="button" class="btn btn-secondary" (click)="resetForm(employeeForm)">Reset</button>
+    </div>
+  </div>
+</form>

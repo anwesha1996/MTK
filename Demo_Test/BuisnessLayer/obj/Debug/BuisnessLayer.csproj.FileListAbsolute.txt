@@ -1,0 +1,13 @@
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\BuisnessLayer.dll
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\BuisnessLayer.pdb
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\EntityLayer.dll
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\EntityFramework.dll
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\bin\Debug\EntityFramework.xml
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\obj\Debug\BuisnessLayer.csprojResolveAssemblyReference.cache
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\obj\Debug\BuisnessLayer.dll
+C:\Users\M1047281\Documents\Visual Studio 2017\Projects\Demo_Test\BuisnessLayer\obj\Debug\BuisnessLayer.pdb

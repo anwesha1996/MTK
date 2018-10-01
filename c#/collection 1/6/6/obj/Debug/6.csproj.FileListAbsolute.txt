@@ -1,0 +1,5 @@
+D:\c#\collection 1\6\6\bin\Debug\6.exe.config
+D:\c#\collection 1\6\6\bin\Debug\6.exe
+D:\c#\collection 1\6\6\bin\Debug\6.pdb
+D:\c#\collection 1\6\6\obj\Debug\6.exe
+D:\c#\collection 1\6\6\obj\Debug\6.pdb

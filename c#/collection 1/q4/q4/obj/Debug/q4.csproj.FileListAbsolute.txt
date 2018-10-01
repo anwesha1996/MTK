@@ -1,0 +1,6 @@
+D:\c#\collection 1\q4\q4\bin\Debug\q4.exe.config
+D:\c#\collection 1\q4\q4\bin\Debug\q4.exe
+D:\c#\collection 1\q4\q4\bin\Debug\q4.pdb
+D:\c#\collection 1\q4\q4\obj\Debug\q4.csprojResolveAssemblyReference.cache
+D:\c#\collection 1\q4\q4\obj\Debug\q4.exe
+D:\c#\collection 1\q4\q4\obj\Debug\q4.pdb

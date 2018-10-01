@@ -1,0 +1,107 @@
+using System;
+ 
+public class Account
+{
+	public int accountNo{get;set;}
+	public string accountType{get ; set;}
+	public int debitCardNo {get ;set;}
+	public int pin{get; set;}
+	public string loginId{ get; set;}
+	public string password{get ; set;}
+	public double balance{get;set; }
+
+	public void setDataNo(int accountNo)
+	{
+		this.accountNo=accountNo;
+	}
+	public int getDataNo()
+	{
+		return accountNo;
+	}
+	public void setaccType(string accountType)
+	{
+		this.accountType=accountType;
+	}
+	public string getaccType()
+	{
+		return accountType;
+	}
+	public void debitcard(int debitCardNo)
+	{
+		this.debitCardNo=debitCardNo;
+	}
+	public int debcard()
+	{
+		return debitCardNo;
+	}
+	public void setpin(int pin)
+	{
+		this.pin=pin;
+	}
+	public int getpin()
+	{
+		return pin;
+	}
+	public void setLoginid(string loginId)
+	{
+		this.loginId=loginId;
+	}
+	public string getloginId()
+	{
+		return loginId;
+	}
+	public void setpwd(string password)
+	{
+		this.password=password;
+	
+    }
+	public string getpassword()
+	{
+		return password;
+	}
+	public void setbalance(double balance)
+	{
+		this.balance=balance;
+	}
+	public double getbalance()
+	{
+		return balance;
+	}
+}
+
+					
+ class AccountMgr
+{
+	 public  Account storeData(Account a)
+	 {
+		 a.setDataNo(1234);
+		 a.setaccType("savings");
+		 a.debitcard(890765432);
+		 a.setpin(0510);
+		 a.setLoginid("anwesh@96");
+		 a.setpwd("annie@123");
+		 a.setbalance(9000.62);
+		 return a;
+	 }
+	 public  void showData(Account a)
+	 {
+		 Console.WriteLine(a.getDataNo());
+		 Console.WriteLine(a.getaccType());
+		 Console.WriteLine(a.debcard());
+		 Console.WriteLine(a.getpin());
+		 Console.WriteLine(a.getloginId());
+		 Console.WriteLine(a.getpassword());
+		 Console.WriteLine(a.getbalance());
+		 
+	 }
+ }
+	 public class Test
+	 {
+	public static void Main()
+	{
+		Account a1=new Account();
+		AccountMgr a2=new AccountMgr();
+		a1=a2.storeData(a1);
+		a2.showData(a1);
+	}
+}

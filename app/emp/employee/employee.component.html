@@ -1,0 +1,35 @@
+<form  class="emp-form" #employeeform="ngForm" (ngSubmit)="onSubmit(employeeform)">
+    <input type="hidden" name="EmpId" #EmpId="ngModel" [(ngModel)]="employeeservices.selectedEmployee.EmpId" >
+  <div class="form-row">
+    <div class="form-group col-md-6">
+<input  class="form-control" name="Firstname" #Firstname="ngModel" [(ngModel)]="employeeservices.selectedEmployee.Firstname" placeholder="Firstname" required>
+<div class="validation-error" *ngIf="Firstname.invalid && Firstname.touched">This field is required</div>    
+</div>
+    <div class="form-group col-md-6">
+        <input  class="form-control" name="Lastname" #Lastname="ngModel" [(ngModel)]="employeeservices.selectedEmployee.Lastname" placeholder="Lastname" required>
+        <div class="validation-error" *ngIf="Lastname.invalid && Lastname.touched">This field is required</div> 
+    </div>
+  </div>
+<div class="form-group">
+    <input  class="form-control" name="Position" #Position="ngModel" [(ngModel)]="employeeservices.selectedEmployee.Position" placeholder="Position" required>
+    <div class="validation-error"*ngIf="Position.invalid && Position.touched">This field is required</div> 
+</div>
+<div class="form-row">
+    <div class="form-group col-md-6">
+<input  class="form-control" name="Empcode" #Empcode="ngModel" [(ngModel)]="employeeservices.selectedEmployee.Empcode" placeholder="Employee code" required>
+<div class="validation-error" *ngIf="Empcode.invalid && Empcode.touched">This field is required</div>    
+</div>
+    <div class="form-group col-md-6">
+        <input  class="form-control" name="Office" #Office="ngModel" [(ngModel)]="employeeservices.selectedEmployee.Office" placeholder="Employee Office" required>
+        <div class="validation-error" *ngIf="Office.invalid && Office.touched">This field is required</div> 
+    </div>
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-8">
+ <button [disabled]="!employeeform.valid"  type="submit" class="btn btn-lg btn-block btn-info"> <i class="fa fa-save"></i> Submit</button>
+      </div>
+      <div class="form-group col-md-4">
+          <button  type="button" class="btn btn-lg btn-block btn-success" (click)="resetForm(employeeform)"> <i class="fa fa-repeat"></i> Reset</button>
+      </div>
+    </div>
+</form>

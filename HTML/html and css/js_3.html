@@ -1,0 +1,109 @@
+<script>
+        function validate()
+    {
+        var reg = /^[a-zA-Z ]*$/;
+        var customername=document.myform.customername.value; 
+        if (customername==null || customername==""){  
+      alert("Customer name can't be blank");  
+      return false;  
+       }
+if (reg.test(customername)==false || customername.length<=4){  
+  alert("Customer name is not valid");  
+  return false;   }
+
+  var reg3 = /^[a-zA-Z ]*$/;
+        var src=document.myform.src.value; 
+        if (src==null || src==""){  
+      alert("Source can't be blank");
+      return false;  
+       }
+if (reg3.test(src)==false){  
+  alert("Source is not valid");  
+  return false;   }
+
+  var reg2 = /^[a-zA-Z ]*$/;
+        var des=document.myform.des.value; 
+        if (des==null || des==""){  
+      alert("Destination can't be blank");  
+      return false;  
+       }
+if (reg2.test(des)==false){  
+  alert("Destination is not valid");  
+  return false;   }
+
+
+  var reg1 = /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/;
+  var date =document.myform.date.value; 
+        if (date==null || date==""){  
+      alert("Date can't be blank");  
+      return false;  
+       }
+
+if (reg1.test(date)==false){  
+  alert("Date is not valid");  
+  return false;   }
+
+  var reg4=/^[0-9]+$/;
+  var amt =document.myform.amt.value; 
+        if (amt==null || amt==""){  
+      alert("Amount can't be blank");  
+      return false;  
+       }
+if (reg4.test(amt)==false){  
+  alert("Amount is not valid");  
+  return false;   }
+
+    }
+
+</script>
+      <html>
+<body>
+        <form name="myform" > 
+<style>
+     
+div {
+    border-style: solid;
+    border-width: 100px;
+    border-color : lightblue;
+
+}
+.ex1
+{
+    background-color : pink;
+}
+</style>
+
+<div>
+    <div class = ex1>
+<u style="color:blue"> <h1 style="color: blue; text-align:center">  JOY TRIP  </h1></u>
+    
+
+    <table style="width:100%", border="1", cellpadding="20">
+        <th style="color:blue" colspan="2"> Book Ticket </th>
+
+  <tr> <td style = "color:blue", align ="center"> Customer Name </td> 
+    <td align="center"> <input type="text"  name="customername"> </td> </tr>
+
+    <tr> <td style = "color:blue" , align ="center"> Customer  Mobile Number </td> 
+        <td align="center"> <input type="text" name="fname"> </td> </tr>
+
+     <tr>   <td style = "color:blue", align ="center"> Source </td> 
+        <td align="center"> <input type="text" name="src"> </td> </tr>
+
+        <tr> <td style = "color:blue", align ="center"> Destination </td> 
+            <td align="center"> <input type="text" name="des"> </td> </tr>
+
+            <tr> <td style = "color:blue", align ="center"> Travel Date </td> 
+                <td align="center"> <input type="text" name="date"> </td> </tr>
+
+                <tr> <tr> <td style = "color:blue", align ="center"> Amount </td> 
+                    <td align="center"> <input type="text" name="amt"> </td> </tr>
+
+    </table> 
+</div>
+</div> 
+  <center>  <button type="button" onclick="validate()">Submit</button> </center>
+        </form>
+</body>
+  </html>
+  

@@ -1,0 +1,304 @@
+DOT-NET CORE
+----------------------
+prog.cs--->startup.cs(register all interfaces/classes)[configure services]{services.AddTransient<Itransient,Operation>===>here obj created--->
+
+=====================================================================================================================================================================================================
+3 lifetimes of obj-
+transient-every time u req,obj created for BL and DL
+
+Scoped-http call,one obj created and will be there till call ends///destroy obj after req
+
+Singleton-obj created when app starts,stays still app crashes/switched off
+
+Guid-readonly property
+
+=====================================================================================================================================================================================================
+
+use of observables
+----------------------
+The HTTP module uses observables to handle AJAX requests and responses.
+
+=====================================================================================================================================================================================================
+
+
+use of pipes
+------------------------
+A pipe takes in data as input and transforms it to a desired output
+
+eg.
+<p>The hero's birthday is {{ birthday | date:"MM/dd/yy" }}</p>      ///html
+birthday = new Date(1988, 3, 15)              //ts April 15, 1988
+
+Inside the interpolation expression, you flow the component's birthday value through the pipe operator ( | ) to the Date pipe function on the right. All pipes work this way.
+
+Angular comes with a stock of pipes such as DatePipe, UpperCasePipe, LowerCasePipe
+
+
+======================================================================================================================================================================================================
+
+
+NgModel
+----------------------
+The ngModel directive binds an input,select, textarea (or custom form control) to a variable or property created in angular.
+
+Binding the view into the model, which other directives such as input, textarea or select require.
+Providing validation behavior (i.e. required, number, email, url).
+
+=================================================================================================================================================
+
+
+ngClass
+----------------------
+The NgClass directive allows you to set the CSS class dynamically for a DOM element.
+
+=================================================================================================================================================
+
+Form-group and form-control
+----------------------
+Form-group add structure to forms
+
+Textual form controls—like <input>s, <select>s, and <textarea>s—are styled with the .form-control class. Included are styles for general appearance, focus state, sizing, and more.
+
+=================================================================================================================================================
+
+Difference between button type button and submit
+--------------------------------------------------------
+
+<input type="button"> can be used anywhere, not just within form and they do not submit form if they are in one. Much better suited with Javascript.
+
+<input type="submit"> should be used in forms only and they will send a request (either GET or POST) to specified URL. They should not be put in any HTML place.
+=================================================================================================================================================
+
+local storage v/s session storage
+----------------------
+Local storage :- The data stored in localStorage persists until explicitly deleted. Changes made are saved and available for all current and future visits to the site.
+
+Session storage :- The data is not persistent i.e. data is only available per window (or tab in browsers like Chrome and Firefox). Data is only available during the page session. Changes made are saved and available for the current page, as well as future visits to the site on the same window. Once the window is closed, the storage is deleted.
+
+=================================================================================================================================================
+
+ts v/s js
+----------------------
+
+JavaScript is dynamically typed. This means JavaScript does not know what type a variable is until it is actually instantiated at run-time. This also means that it may be too late. TypeScript adds type support to JavaScript. Bugs that are caused by false assumptions of some variable being of a certain type can be completely eradicated if you play your cards right (how strict you type your code or if you type your code at all is up to you).
+
+1). TypeScript makes typing a bit easier and a lot less explicit by the usage of type inference. For example: var x = "hello" in TypeScript is the same as var x : string = "hello". The type is simply inferred from its use. Even it you don't explicitly type the types, they are still there to save you from doing something which otherwise would result in a run-time error.
+ 
+2). The TypeScript compiler supports incremental compilation (--watch compiler flag), so that all subsequent changes can be compiled at greater speed.
+=================================================================================================================================================
+
+map
+----------------------
+map works exactly the same for Observables as it does for arrays. You use map to transform a collection of items into a collection of different items. It helps if you think of an Observable as a collection of items (just like an array is also a collection of items), at least from the observer's point of view.
+
+For example, take these 2 methods that you wrote to use with some arrays:
+
+function multiplyByTwo(collection) {
+    return collection.map(function (value) {
+        return value * 2;
+    });}
+
+function removeZeroes(collection) {
+    return collection.filter(function (value) {
+        return value !== 0;
+    });
+}
+
+var a = [1, 2, 3, 4, 0, 5];
+var b = multiplyByTwo(a); // a new array [2, 4, 6, 8, 0, 10]
+var c = removeZeroes(b); // a new array [2, 4, 6, 8, 10]
+You can use these same functions for an observable:
+
+var a = Rx.Observable.of(1, 2, 3, 4, 0, 5);
+var b = multiplyByTwo(a); // a new observable [2, 4, 6, 8, 0, 10]
+var c = removeZeroes(b); // a new observable [2, 4, 6, 8, 10]
+This is possible because RxJs observables implement the array operators like map and filter to have the exact same semantics as they do for arrays. If you know how they work for arrays, then you know how they work for observables.
+
+=====================================================================================================================================================================================================
+
+
+I http action result
+---------------------------------------------
+
+Simplifies unit testing your controllers.
+Moves common logic for creating HTTP responses into separate classes.
+Makes the intent of the controller action clearer, by hiding the low-level details of constructing the response.
+But here are some other advantages of using IHttpActionResult worth mentioning:
+
+Respecting single responsibility principle: cause action methods to have the responsibility of serving the HTTP requests and does not involve them in creating the HTTP response messages.
+Useful implementations already defined in the System.Web.Http.Results namely: Ok NotFound Exception Unauthorized BadRequest Conflict Redirect InvalidModelState
+
+By using the IHttpActionResult we are only concentrating on the data to be send not on the status code. So here the code will be cleaner and very easy to maintain.
+
+
+=====================================================================================================================================================================================================
+
+http response msg
+----------------------------------
+Now as you can see above, we have used a HttpResponseMessage as the return type for our get method that will now “CreateResponse” that will return the employee data and “HttpStatusCode.OK” if the employee exists for the Id provided and if no such employee exists then it will create a “CreateErrorResponse” and that will be returning the message “Employee Not Found” and “HttpStatusCode.NotFound”.
+
+=====================================================================================================================================================================================================
+
+ng serve and ng build
+----------------------------------
+
+
+The ng build command writes generated build artifacts to the output folder and the ng serve command does not. The by default output folder is - dist/.
+This command builds your app and deploys it.
+
+This command build, deploy, serves and every time watches your code changes. if find any change in code it builds and serves that code automatically.
+
+
+=====================================================================================================================================================================================================
+
+
+directive
+-------------
+
+
+There are three kinds of directives in Angular:
+
+Components—directives with a template.
+Structural directives—change the DOM layout by adding and removing DOM elements.
+Attribute directives—change the appearance or behavior of an element, component, or another directive.
+Components are the most common of the three directives. You saw a component for the first time in the QuickStart guide.
+
+Structural Directives change the structure of the view. Two examples are NgFor and NgIf. Learn about them in the Structural Directives guide.
+
+Attribute directives are used as attributes of elements. The built-in NgStyle directive in the Template Syntax guide, for example, can change several element styles at the same time.
+
+
+=====================================================================================================================================================================================================
+
+Multiple Db Context
+------------------------------------------
+
+
+enable-migrations --ContextTypename <DbContext-Name> -MigrationsDirectory <Migrations-Directory-Name>
+Add-Migration -configurationtypename <DbContext-Migrations-Configuration-Class-Name> <Migrations-Name>
+Update-Database -configurationtypename <DbContext-Migrations-Configuration-Class-Name> -Verbose -force
+
+==================================================================================================================================================================================================
+
+UP DOWN METHOD
+-------------------------------------------
+The Up method upgrades your database from its current state (represented by your previous migration) to the state expected by your current code migration.
+The Down method does the reverse operation - it removes all the changes from the current migration and reverts database to the state expected by the previous migration.
+It's like installing / uninstalling the migration. 
+Only one of these methods is executed when you call update-database. 
+To use the Down method you must explicitly specify the target migration for your upgrade. 
+If the target migration is the old one, the migration API will automatically use the Down method and downgrade your database.
+
+
+==================================================================================================================================================================================================
+
+SEED METHOD
+-------------------------------------------
+The general idea of a Seed Method is to initialize data into a database that is being created by Code First or evolved by Migrations.
+
+=====================================================================================================================================================================================================
+
+REST IN WEB-API
+---------------------------------------------------
+
+1).uri+url through which json data sent and web api serves that request
+2).secure passing through only route is known not method implemenatation
+3).http verbs
+4).stateless
+
+disadv-only accepts http request and gives http response
+
+=====================================================================================================================================================================================================
+
+MVC FILTERS
+-------------------------------------------------------
+In MVC, a user request is routed to the appropriate controller and action method. 
+However, there may be circumstances where you want to execute some logic before or after an action method executes. ASP.NET MVC provides filters for this purpose.
+
+ASP.NET MVC Filter is a custom class where you can write custom logic to execute before or after an action method executes. 
+Filters can be applied to an action method or controller in a declarative or programmatic way. 
+Declarative means by applying a filter attribute to an action method or controller class and programmatic means by implementing a corresponding interface.
+
+1).Action filters	Performs some operation before and after an action method executes.	
+ 
+2).Result filters	Performs some operation before or after the execution of view result.
+
+3).Authorization filters	Performs authentication and authorizes before executing action method.
+
+4).Exception filters	Performs some operation if there is an unhandled exception thrown during the execution
+
+
+	Output Cache
+------------------------------------
+This action is decorated with the OutputCache result filter attribute. 
+
+This filter causes the value returned by the action to be cached for 10 seconds.
+
+If you repeatedly invoke the Index() action by entering the URL /Data/Index into the address bar of your browser and hitting the Refresh button multiple times, 
+
+then you will see the same time for 10 seconds. 
+
+
+
+ IAction filter Interface
+--------------------------------------------
+
+ActionFilterAttribute class is a  class implements the IActionFilter and IresultFilter
+
+The base ActionFilterAttribute class has the following methods that you can override:
+
+1).OnActionExecuting – This method is called before a controller action is executed.
+2).OnActionExecuted – This method is called after a controller action is executed.
+3).OnResultExecuting – This method is called before a controller action result is executed.
+4).OnResultExecuted – This method is called after a controller action result is executed.
+
+We have created a custom action filter that logs the stages of processing a controller action to the Visual Studio Output window
+
+RouteData is a property of base Controller class, so RouteData can be accessed in any controller. 
+RouteData contains route information of a current request. You can get the controller, action or parameter information using RouteData
+for every req ,.net will create a context lifetime is request lifetime in context we hav req and resp obj reference.
+
+=====================================================================================================================================================================================================
+dependency injection
+-----------------------------
+inv of control-it is  a pattern to achieve what we want to achieve and we do that using di
+
+const.injection
+property inj.
+method inj.
+
+=====================================================================================================================================================================================================
+
+ header=new HttpHeaders();
+  postUser(user: User) {
+    
+    this.header= this. header.append('Authorization','Basic R29rdWw6VHJ1ZQ==');
+    this.header= this. header.append('Content-Type', 'application/json');
+    return this.http.post(this.rootUrl + '/api/UserDetails',user,{headers:this.header}).pipe(catchError(this.handleError.bind(this)));
+  } 
+
+		var s = atob(string);
+
+
+
+=====================================================================================================================================================================================================
+startup.cs
+-----------
+configure services- register connectionstrings
+for data aceess layer
+--------------------------
+in configure services ADD dbcontext-->specify where u have to do the migration-->add mvc-->addscope/tran/sing-->add cors by creating policy and gave name and on controller u write that name
+write connection string in startup.cs and add in appsettings.json
+
+
+middleware
+-----------------
+now req directly hit api mtehod
+m fetch req from angular ,req directed to m,m check auth,exceptn handling (all auth,exceptn are sepaate middleware)
+
+app.usemvc at last as whatever checking after done then only hit the method
+
+
+
+
+

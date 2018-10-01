@@ -1,0 +1,6 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\DelegateBasics\DelegateBasics\bin\Debug\DelegateBasics.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\DelegateBasics\DelegateBasics\bin\Debug\DelegateBasics.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\DelegateBasics\DelegateBasics\bin\Debug\DelegateBasics.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\DelegateBasics\DelegateBasics\obj\Debug\DelegateBasics.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\DelegateBasics\DelegateBasics\obj\Debug\DelegateBasics.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\DelegateBasics\DelegateBasics\obj\Debug\DelegateBasics.pdb

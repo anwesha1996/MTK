@@ -1,0 +1,5 @@
+D:\c#\ConsoleApplication\Stud\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\c#\ConsoleApplication\Stud\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\c#\ConsoleApplication\Stud\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\c#\ConsoleApplication\Stud\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\c#\ConsoleApplication\Stud\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

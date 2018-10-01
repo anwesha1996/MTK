@@ -1,0 +1,5 @@
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\Entities\bin\Debug\Entities.dll
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\Entities\bin\Debug\Entities.pdb
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\Entities\obj\Debug\Entities.dll
+c:\users\m1047151\documents\visual studio 2017\Projects\BookMyRoom\Entities\obj\Debug\Entities.pdb

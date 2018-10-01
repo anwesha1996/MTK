@@ -1,0 +1,6 @@
+D:\c#\collection 2\ques7\ques7\bin\Debug\ques7.exe.config
+D:\c#\collection 2\ques7\ques7\bin\Debug\ques7.exe
+D:\c#\collection 2\ques7\ques7\bin\Debug\ques7.pdb
+D:\c#\collection 2\ques7\ques7\obj\Debug\ques7.csprojResolveAssemblyReference.cache
+D:\c#\collection 2\ques7\ques7\obj\Debug\ques7.exe
+D:\c#\collection 2\ques7\ques7\obj\Debug\ques7.pdb

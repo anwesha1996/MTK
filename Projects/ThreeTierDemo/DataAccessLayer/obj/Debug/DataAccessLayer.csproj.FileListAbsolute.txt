@@ -1,0 +1,7 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\ThreeTierDemo\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+c:\users\m1042829\documents\visual studio 2017\Projects\ThreeTierDemo\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\ThreeTierDemo\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+c:\users\m1042829\documents\visual studio 2017\Projects\ThreeTierDemo\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\ThreeTierDemo\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\ThreeTierDemo\DataAccessLayer\bin\Debug\Student.Entity.dll
+c:\users\m1042829\documents\visual studio 2017\Projects\ThreeTierDemo\DataAccessLayer\bin\Debug\Student.Entity.pdb

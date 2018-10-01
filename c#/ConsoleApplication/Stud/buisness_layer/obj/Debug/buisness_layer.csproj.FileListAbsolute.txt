@@ -1,0 +1,7 @@
+D:\c#\ConsoleApplication\Stud\buisness_layer\obj\Debug\buisness_layer.csprojResolveAssemblyReference.cache
+D:\c#\ConsoleApplication\Stud\buisness_layer\bin\Debug\buisness_layer.dll
+D:\c#\ConsoleApplication\Stud\buisness_layer\bin\Debug\buisness_layer.pdb
+D:\c#\ConsoleApplication\Stud\buisness_layer\bin\Debug\DataAccessLayer.dll
+D:\c#\ConsoleApplication\Stud\buisness_layer\bin\Debug\DataAccessLayer.pdb
+D:\c#\ConsoleApplication\Stud\buisness_layer\obj\Debug\buisness_layer.dll
+D:\c#\ConsoleApplication\Stud\buisness_layer\obj\Debug\buisness_layer.pdb

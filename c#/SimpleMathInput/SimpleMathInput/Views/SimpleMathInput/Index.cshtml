@@ -1,0 +1,30 @@
+﻿@model SimpleMathInput.Models.SimpleMathInput
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+		<form>
+	
+		First number:
+		<input type="text" name="firstname" ><br>
+        second number:
+		<input type="text" name="lastname" ><br><br>
+			<input type="submit"/><br /> 
+				@(Model!=null)?Model1.GetResult():string.Empty
+			
+	
+
+		</form>
+    </div>
+</body>
+</html>

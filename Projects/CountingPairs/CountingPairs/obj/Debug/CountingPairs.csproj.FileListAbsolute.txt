@@ -1,0 +1,6 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\CountingPairs\CountingPairs\bin\Debug\CountingPairs.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\CountingPairs\CountingPairs\bin\Debug\CountingPairs.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\CountingPairs\CountingPairs\bin\Debug\CountingPairs.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\CountingPairs\CountingPairs\obj\Debug\CountingPairs.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\CountingPairs\CountingPairs\obj\Debug\CountingPairs.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\CountingPairs\CountingPairs\obj\Debug\CountingPairs.pdb

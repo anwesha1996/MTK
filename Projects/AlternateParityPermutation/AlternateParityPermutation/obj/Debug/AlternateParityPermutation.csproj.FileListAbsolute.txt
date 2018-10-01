@@ -1,0 +1,6 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\AlternateParityPermutation\AlternateParityPermutation\bin\Debug\AlternateParityPermutation.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\AlternateParityPermutation\AlternateParityPermutation\bin\Debug\AlternateParityPermutation.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\AlternateParityPermutation\AlternateParityPermutation\bin\Debug\AlternateParityPermutation.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\AlternateParityPermutation\AlternateParityPermutation\obj\Debug\AlternateParityPermutation.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\AlternateParityPermutation\AlternateParityPermutation\obj\Debug\AlternateParityPermutation.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\AlternateParityPermutation\AlternateParityPermutation\obj\Debug\AlternateParityPermutation.pdb

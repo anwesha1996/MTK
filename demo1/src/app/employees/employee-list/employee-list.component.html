@@ -1,0 +1,17 @@
+<table class="table table-sm table-hover">
+  <tr *ngFor="let employee of employeeService.employeelist">
+    <!-- <td>{{employee.eid}}</td> -->
+    <td>{{employee.name}}</td>
+    <td>{{employee.empcode}}</td>
+    <td>{{employee.office}}</td>
+  <td>
+  <button (click)="edit(employee)">
+      <i class="fa fa-edit" style="font-size:24px"></i>
+  </button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="text-danger" >
+      <i class="fa fa-trash" style="font-size:24px"></i>
+  </button>
+</td>
+</tr>
+</table>

@@ -1,0 +1,45 @@
+<div style="text-align:center">
+    <h1> Feedback Form </h1>
+    <form>
+      <table align="left">
+        <tr>
+        
+          <td>Name</td>
+          <td>
+            <input type="text" #Names>
+          </td>
+        </tr>
+        <br>
+        <tr>
+          <td>Track</td>
+          <input type="text" #Tracks >
+        </tr>
+        <br>
+        <tr>
+            <td>Room </td>
+            <input type="text" #Rooms>
+        </tr>
+            <br>
+        <button style="background-color:blue" (click)="submit(Names.value,Tracks.vale,Rooms.value)"> Post </button>
+      </table>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <hr>
+    <br>
+    <br>
+   <app-dispc [parent]="Name"> </app-dispc>
+   <app-dispc [parent1]="Track"> </app-dispc>
+   <app-dispc [parent2]="Room"> </app-dispc>
+   
+   
+   
+

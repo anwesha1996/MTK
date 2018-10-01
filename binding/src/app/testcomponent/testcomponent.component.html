@@ -1,0 +1,20 @@
+<h1> String Interpolation </h1>
+<h3>
+  {{pageTitle}}
+</h3>
+<img src= {{imageUrl}} />
+<button disabled={{btnStatus}}> Click </button>
+  <h1>
+    Property binding </h1>
+
+<img [src] ="imageUrl1"/>
+<button [disabled]="btnStatus"> Click </button>
+<br>
+
+<button (click)="changeTitle()"> TitleChange </button>
+<br>
+<br>
+
+Enter Name : <input type="text" [(ngModel)]="Username">
+<br>
+<h4>Welcome {{Username}} </h4>

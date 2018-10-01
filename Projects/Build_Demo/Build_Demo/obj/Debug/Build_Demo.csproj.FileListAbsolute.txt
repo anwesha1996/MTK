@@ -1,0 +1,8 @@
+c:\users\m1042829\documents\visual studio 2017\Projects\Build_Demo\Build_Demo\bin\Debug\Build_Demo.exe.config
+c:\users\m1042829\documents\visual studio 2017\Projects\Build_Demo\Build_Demo\bin\Debug\Build_Demo.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\Build_Demo\Build_Demo\bin\Debug\Build_Demo.pdb
+c:\users\m1042829\documents\visual studio 2017\Projects\Build_Demo\Build_Demo\obj\Debug\Build_Demo.csprojResolveAssemblyReference.cache
+c:\users\m1042829\documents\visual studio 2017\Projects\Build_Demo\Build_Demo\obj\Debug\Build_Demo.Properties.Resources.resources
+c:\users\m1042829\documents\visual studio 2017\Projects\Build_Demo\Build_Demo\obj\Debug\Build_Demo.csproj.GenerateResource.Cache
+c:\users\m1042829\documents\visual studio 2017\Projects\Build_Demo\Build_Demo\obj\Debug\Build_Demo.exe
+c:\users\m1042829\documents\visual studio 2017\Projects\Build_Demo\Build_Demo\obj\Debug\Build_Demo.pdb

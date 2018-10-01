@@ -1,0 +1,33 @@
+﻿@model GadgetStore.Models.Gadget
+
+<table>
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => Model.GadgetName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CompanyName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Image)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.ActionLink("Add To WishList", "AddToWishList", new { id = item.GadgetID })
+            <span class=" glyphicon glyphicon-heart" style="color:red;font-size:larger">
+
+            </span>
+
+        </td>
+
+
+    </tr>
+</table>
